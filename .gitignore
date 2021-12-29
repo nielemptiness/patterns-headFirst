@@ -6,3 +6,4 @@ riderModule.iml
 # JetBrains Rider
 .idea/
 *.sln.iml
+*.suo

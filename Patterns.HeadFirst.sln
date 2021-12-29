@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.HeadFirst.Command", "Patterns.HeadFirst.Command\Patterns.HeadFirst.Command.csproj", "{57F45B03-354A-413D-9C4A-A0797B59E7D8}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patterns.HeadFirst.Command", "Patterns.HeadFirst.Command\Patterns.HeadFirst.Command.csproj", "{57F45B03-354A-413D-9C4A-A0797B59E7D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.HeadFirst.Adapter", "Patterns.HeadFirst.Adapter\Patterns.HeadFirst.Adapter.csproj", "{101FB7D7-EE09-4B12-AA64-2095D0D22767}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,15 @@ Global
 		{57F45B03-354A-413D-9C4A-A0797B59E7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57F45B03-354A-413D-9C4A-A0797B59E7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57F45B03-354A-413D-9C4A-A0797B59E7D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101FB7D7-EE09-4B12-AA64-2095D0D22767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101FB7D7-EE09-4B12-AA64-2095D0D22767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101FB7D7-EE09-4B12-AA64-2095D0D22767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101FB7D7-EE09-4B12-AA64-2095D0D22767}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {850AC90B-DFE2-4AAB-ADD0-4A170624D15E}
 	EndGlobalSection
 EndGlobal
