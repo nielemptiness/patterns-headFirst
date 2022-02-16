@@ -3,7 +3,7 @@ namespace Patterns.HeadFirst.Singleton;
 public class LockedSingleton
 {
     private static LockedSingleton? _lockedSingleton;
-    private static readonly object SyncRoot = new object();
+    private static readonly object SyncRoot = new();
     private readonly int _creationCount = 0;
     
     private LockedSingleton()
