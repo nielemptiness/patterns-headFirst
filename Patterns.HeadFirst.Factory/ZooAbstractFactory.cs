@@ -17,14 +17,7 @@ namespace Patterns.HeadFirst.Factories
 
         public IEnumerable<HomeAnimal> CreateAnimals(params AnimalType[] animalTypes)
         {
-            var animals = new List<HomeAnimal>();
-            
-            foreach (var animalType in animalTypes)
-            {
-                animals.Add(_animalFactory.Create(animalType));
-            }
-
-            return animals;
+            return animalTypes.Select(animalType => _animalFactory.Create(animalType)).ToList();
         }
 
         public Bird CreateBird(BirdType birdType)
