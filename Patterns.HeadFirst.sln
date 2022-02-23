@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.HeadFirst.Proxy", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.HeadFirst.Observer", "Patterns.HeadFirst.Observer\Patterns.HeadFirst.Observer.csproj", "{B15F8E90-4BDE-4209-8DEF-077D456859A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.HeadFirst.Decorator", "Patterns.HeadFirst.Decorator\Patterns.HeadFirst.Decorator.csproj", "{332861E0-5FB3-43AA-8EBC-D2C6E1E4C0E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{B15F8E90-4BDE-4209-8DEF-077D456859A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B15F8E90-4BDE-4209-8DEF-077D456859A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B15F8E90-4BDE-4209-8DEF-077D456859A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{332861E0-5FB3-43AA-8EBC-D2C6E1E4C0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332861E0-5FB3-43AA-8EBC-D2C6E1E4C0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332861E0-5FB3-43AA-8EBC-D2C6E1E4C0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332861E0-5FB3-43AA-8EBC-D2C6E1E4C0E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
